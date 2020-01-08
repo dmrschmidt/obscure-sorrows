@@ -1,10 +1,21 @@
 .releases-section {
-  padding: 10rem 0;
+  padding-bottom: 10rem;
+
+  h1 {
+    padding: 5rem 0;
+  }
+
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
+      &.right {
+        border-left: 0.5rem solid $primary;
+      }
+
+      &.left {
+        border-right: 0.5rem solid $primary;
+      }
     }
   }
   .project-text {

@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #fdd40e;
+  border: 1px solid #fdd40e;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #fdd40e;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #bd9d02;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #fdd40e;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #fdd40e;
   }
 }
 
@@ -146,20 +146,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #fdd40e;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #d6b202;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #d6b202;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #bd9d02 !important;
 }
 
 .about-section {
@@ -172,7 +172,11 @@
 }
 
 .releases-section {
-  padding: 10rem 0;
+  padding-bottom: 10rem;
+}
+
+.releases-section h1 {
+  padding: 5rem 0;
 }
 
 .releases-section .featured-text {
@@ -182,7 +186,12 @@
 @media (min-width: 992px) {
   .releases-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+  }
+  .releases-section .featured-text.right {
+    border-left: 0.5rem solid #fdd40e;
+  }
+  .releases-section .featured-text.left {
+    border-right: 0.5rem solid #fdd40e;
   }
 }
 
@@ -196,7 +205,7 @@
     padding: 5rem;
   }
   .releases-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #fdd40e;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +237,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #fdd40e;
 }
 
 .contact-section .card h4 {
@@ -239,7 +248,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #fdd40e;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,24 +281,28 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #fdd40e;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #a48801;
 }
 
 .bg-black {
   background-color: #161616 !important;
 }
 
+.bg-darker {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #fdd40e !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #fdd40e !important;
 }
 
 footer {
