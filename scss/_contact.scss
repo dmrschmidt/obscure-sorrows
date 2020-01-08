@@ -1,3 +1,42 @@
+.contact {
+
+  .even {
+    background-color: $lighter-black;
+  }
+
+  .odd {
+    background-color: $dark-black;
+  }
+
+  @media(min-width: 576px) {
+    @media(max-width: 1199px) {
+      .row-0.even {
+        background-color: $lighter-black;
+      }
+
+      .row-0.odd {
+        background-color: $dark-black;
+      }
+
+      .row-1.even {
+        background-color: $dark-black;
+      }
+
+      .row-1.odd {
+        background-color: $lighter-black;
+      }
+
+      .row-2.even {
+        background-color: $lighter-black;
+      }
+
+      .row-2.odd {
+        background-color: $dark-black;
+      }
+    }
+  }
+}
+
 .contact-section {
   padding: 5rem 0 0;
   .card {

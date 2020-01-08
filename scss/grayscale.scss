@@ -26,20 +26,20 @@ a {
   font-family: 'Archivo Black';
 }
 
+.bg-dark-black {
+  background-color: $dark-black !important;
+}
+
 .bg-black {
   background-color: $black !important;
 }
 
-.bg-darker {
-  background-color: #262424 !important;
+.bg-lighter-black {
+  background-color: $lighter-black !important;
 }
 
-.bg-darker-2 {
-  background-color: #333030 !important;
-}
-
-.bg-black-2 {
-  background-color: #141414 !important;
+.bg-lightest-black {
+  background-color: $lightest-black !important;
 }
 
 .bg-zero {
