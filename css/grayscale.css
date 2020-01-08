@@ -179,6 +179,11 @@
   padding: 5rem 0;
 }
 
+.releases-section .project h1 {
+  font-size: 6rem;
+  padding: 2rem 0;
+}
+
 .releases-section .featured-text {
   padding: 2rem;
 }
@@ -294,7 +299,7 @@ a:focus, a:hover {
 }
 
 .bg-darker {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(100, 100, 100, 0.8) !important;
 }
 
 .bg-primary {
