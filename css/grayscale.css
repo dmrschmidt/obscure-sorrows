@@ -184,6 +184,14 @@
   padding: 2rem 0;
 }
 
+.releases-section .project a {
+  display: block;
+}
+
+.releases-section .project a:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
 .releases-section .featured-text {
   padding: 2rem;
 }
@@ -299,7 +307,19 @@ a:focus, a:hover {
 }
 
 .bg-darker {
-  background-color: rgba(100, 100, 100, 0.8) !important;
+  background-color: #262424;
+}
+
+.bg-darker-2 {
+  background-color: #333030;
+}
+
+.bg-black-2 {
+  background-color: #141414;
+}
+
+.bg-zero {
+  background-color: black !important;
 }
 
 .bg-primary {

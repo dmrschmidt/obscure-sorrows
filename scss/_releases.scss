@@ -10,6 +10,14 @@
       font-size: 6rem;
       padding: 2rem 0;
     }
+
+    a {
+      display: block;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+      }
+    }
   }
 
   .featured-text {
