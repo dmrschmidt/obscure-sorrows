@@ -1,5 +1,7 @@
 # Obscure Sorrows Records
 
+[![Latest Release](img/opengraph-preview.jpg)](https://dmrschmidt.github.io/obscure-sorrows/)
+
 ## Download and Installation
 
 Clone the repo.
