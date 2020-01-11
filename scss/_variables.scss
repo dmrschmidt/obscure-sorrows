@@ -17,4 +17,5 @@ $lighter-black: #262424 !default;
 $lightest-black: #333030 !default;
 $black-translucent: #16161688 !default;
 
-$primary: #fdd40e !default;
+$brand: #435d2e;
+$primary: lighten($brand, 10%) !default;

@@ -9,6 +9,17 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
+  .logo {
+    opacity: 0.85;
+    /*
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: left top, left bottom;
+    */
+  }
+
   h1 {
     font-family: 'Archivo Black';
     font-size: 2.5rem;
