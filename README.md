@@ -1,6 +1,6 @@
 # Obscure Sorrows Records
 
-[![Latest Release](img/opengraph-preview.jpg)](https://dmrschmidt.github.io/obscure-sorrows/)
+[![Latest Release](img/opengraph-preview.png)](https://dmrschmidt.github.io/obscure-sorrows/)
 
 ## Download and Installation
 
